@@ -4,6 +4,7 @@ import languages from '../helper/data'
 import Card from '../components/card.vue'
 
 </script>
+
 <template>
     <div >
         <a href="#" target="_blank">
@@ -15,10 +16,10 @@ import Card from '../components/card.vue'
             <div v-for="data in languages" :key="data">
                 <Card :data="data"/>                  
             </div>
-   
         </div>
     </div>
 </template>
+
 <style>
 .logo {
     height: 6.5em;
@@ -67,6 +68,4 @@ import Card from '../components/card.vue'
   
   }
 
-
-  
 </style>
